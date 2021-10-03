@@ -32,16 +32,22 @@ public class DataPopulator {
 		Coupon c1 = new Coupon(20.0, 5);
 		Coupon c2 = new Coupon(10.0, 3);
 		Coupon c3 = new Coupon(50.0, 1);
-		
+		Coupon c4 = new Coupon(10.0, 5);
+		Coupon c5 = new Coupon(20.0, 4);
+		Coupon c6 = new Coupon(30.0, 3);
+		Coupon c7 = new Coupon(40.0, 2);
+		Coupon c8 = new Coupon(50.0, 1);
+
 		u1.addCoupon(c1);
 		u1.addCoupon(c2);
 		u1.addCoupon(c3);
 
-		u2.addCoupon(c1);
-		u2.addCoupon(c2);
+		u2.addCoupon(c4);
+		u2.addCoupon(c5);
 		
-		u3.addCoupon(c2);
-		u3.addCoupon(c3);
+		u3.addCoupon(c6);
+		u3.addCoupon(c7);
+		u3.addCoupon(c8);
 		
 		userDAO.add(u1);
 		userDAO.add(u2);
@@ -49,5 +55,10 @@ public class DataPopulator {
 		couponDAO.add(c1);
 		couponDAO.add(c2);
 		couponDAO.add(c3);
+		couponDAO.add(c4);
+		couponDAO.add(c5);
+		couponDAO.add(c6);
+		couponDAO.add(c7);
+		couponDAO.add(c8);
 	}
 }
